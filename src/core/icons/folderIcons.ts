@@ -1427,6 +1427,41 @@ export const folderIcons: FolderTheme[] = [
         },
       },
       { name: 'folder-kotlin', folderNames: ['kotlin'] },
+      {
+        name: 'folder-redis',
+        folderNames: ['redis', 'redis-db'],
+        clone: { base: 'folder-database', color: '#EF5350' },
+      },
+      {
+        name: 'folder-mongodb',
+        folderNames: ['mongo', 'mongodb'],
+        clone: { base: 'folder-database', color: '#4CAF50' },
+      },
+      {
+        name: 'folder-sqlite',
+        folderNames: ['sqlite'],
+        clone: { base: 'folder-database', color: '#03A9F4' },
+      },
+      {
+        name: 'folder-microsoftdb',
+        folderNames: ['access', 'mdb', 'microsoftdb'],
+        clone: { base: 'folder-database', color: '#F44336' },
+      },
+      {
+        name: 'folder-postgre',
+        folderNames: ['postgre', 'postgresql'],
+        clone: { base: 'folder-database', color: '#2196F3' },
+      },
+      {
+        name: 'folder-mariadb',
+        folderNames: ['mariadb', 'mysql'],
+        clone: { base: 'folder-database', color: '#3F51B5' },
+      },
+      {
+        name: 'folder-oracle',
+        folderNames: ['oracle', 'oracle-db'],
+        clone: { base: 'folder-database', color: '#FF5722' },
+      },
     ],
   },
   {
